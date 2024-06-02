@@ -236,11 +236,11 @@
       }
     },
     filterByTag() {
-      if ($(this).hasClass("active-tag")) {
+      if ($(this).hasClass("active")) {
         return;
       }
-      $(".active-tag").removeClass("active active-tag");
-      $(this).addClass("active-tag");
+      $(".active").removeClass("active");
+      $(this).addClass("active");
 
       var tag = $(this).data("images-toggle");
 
