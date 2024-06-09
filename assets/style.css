@@ -244,6 +244,11 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.carousel-item {
+	width: 100%;
+	height: auto;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
